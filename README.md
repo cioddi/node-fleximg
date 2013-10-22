@@ -2,7 +2,7 @@
 
 Responsive image loader - Automatically resizes image files to fit the desired display dimensions
 
-not for production use!
+not ready for production use!
 
 ##Website
 http://www.fleximg.com
