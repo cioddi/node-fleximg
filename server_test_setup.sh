@@ -8,3 +8,6 @@ nvm install 0.10
 nvm use 0.10
 
 npm install
+
+sudo iptables -A INPUT -p tcp -m tcp --sport 8080 -j ACCEPT
+sudo iptables -A OUTPUT -p tcp -m tcp --dport 8080 -j ACCEPT
